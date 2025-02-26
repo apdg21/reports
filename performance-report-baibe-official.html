@@ -190,28 +190,8 @@
 <p>Prepared by: Marketing Analytics Team</p>
 <p>Date: February 26, 2025</p>
 
-<a href="#" class="button" onclick="downloadReport()">Download Report (PDF/DOC)</a>
+<a href="https://apdg21.github.io/reports/Performance%20Report%20Baibe%20Official.pdf" class="button" target="_blank">Download Report (PDF)</a>
 
-<script>
-    async function downloadReport() {
-        const { jsPDF } = window.jspdf;
-        const doc = new jsPDF();
-
-        // Add content to the PDF
-        doc.setFontSize(16);
-        doc.text("Email Marketing Campaign Performance Report", 10, 10);
-
-        // You can add more content here
-        doc.setFontSize(12);
-        doc.text("Overview", 10, 20);
-        doc.text("This report analyzes the performance of the email campaigns sent between November 4, 2024, and December 25, 2024.", 10, 30);
-        
-        // Continue adding text as needed...
-
-        // Save the PDF
-        doc.save("Email_Marketing_Report.pdf");
-    }
-</script>
 
 
 </body>
