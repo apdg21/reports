@@ -11,10 +11,11 @@
             padding: 20px;
             background-color: #f4f4f4;
             color: #333;
+            display: flex;
+            justify-content: center;
         }
         .container {
             max-width: 800px;
-            margin: auto;
             background: white;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -65,10 +66,18 @@
         th {
             background-color: #f2f2f2;
         }
+        img {
+            width: 600px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+        }
     </style>
 </head>
 
 <body>
+
+<div class="container">
 
 <h1>Email Marketing Campaign Performance Report</h1>
 
@@ -78,7 +87,7 @@
 <h2>Key Performance Metrics Summary:</h2>
     
 <h3>Overall Open Rate & Revenue Trends</h3>
-<img src="open_rate_revenue_trend.png" alt="Open Rate and Revenue Trends Over Time" style="width:600px; height:auto; display:block; margin: 10px 0;">
+<img src="open_rate_revenue_trend.png" alt="Open Rate and Revenue Trends Over Time">
 <p>The graph above shows the fluctuation of open rates and revenue throughout the campaign period. Key revenue spikes align with promotional emails, while engagement trends reveal...</p> 
     
 <ul>
@@ -95,82 +104,11 @@
     
 <h3>High vs. Low Performing Campaigns</h3>
 <p>The chart below visualizes the contrast between high-performing and low-performing campaigns based on open rates and revenue.</p>
-<img src="high_vs_low_performing_campaigns_fixed.png" alt="High vs Low Performing Campaigns" style="width:600px; height:auto; display:block; margin: 10px 0;">
+<img src="high_vs_low_performing_campaigns_fixed.png" alt="High vs Low Performing Campaigns">
 
-<h3>1. High-Performing Campaigns (Top Open & Click Rates)</h3>
-<ul>
-    <li><strong>"Gift Card Last Call" (Dec 23)</strong>
-        <ul>
-            <li>Open Rate: 72.00%</li>
-            <li>Click Rate: 2.91%</li>
-            <li>Revenue: $0 (Informational Campaign)</li>
-        </ul>
-    </li>
-    <li><strong>"Baibe Appreciation Week Kick-Off" (Nov 4)</strong>
-        <ul>
-            <li>Open Rate: 65.90%</li>
-            <li>Click Rate: 5.95%</li>
-            <li>Revenue: $0 (Engagement-focused)</li>
-        </ul>
-    </li>
-    <li><strong>"Feature Highlights + Savings Reminder" (Nov 7)</strong>
-        <ul>
-            <li>Open Rate: 70.11%</li>
-            <li>Click Rate: 6.10%</li>
-            <li>Revenue: $3,084.84</li>
-        </ul>
-    </li>
-</ul>
-
-<h3>2. Revenue-Generating Campaigns</h3>
-<ul>
-    <li><strong>"DB Deals Reminder 1 hr" (Nov 28, 11 PM)</strong>
-        <ul>
-            <li>Revenue: $11,100.23 (Highest revenue generated)</li>
-            <li>Open Rate: 25.19%</li>
-            <li>Click Rate: 1.04%</li>
-        </ul>
-    </li>
-    <li><strong>"DB Deals Start Now" (Nov 29, 12 AM)</strong>
-        <ul>
-            <li>Revenue: $6,252.37</li>
-            <li>Open Rate: 25.23%</li>
-            <li>Click Rate: 1.46%</li>
-        </ul>
-    </li>
-    <li><strong>"Door Buster vs Ready-to-Ship" (Nov 28, 1 PM)</strong>
-        <ul>
-            <li>Revenue: $3,553.99</li>
-            <li>Open Rate: 62.74%</li>
-            <li>Click Rate: 1.58%</li>
-        </ul>
-    </li>
-</ul>
-
-<h3>3. Underperforming Campaigns</h3>
-<ul>
-    <li><strong>"Cyber Monday Announcement" (Dec 2, 10 AM)</strong>
-        <ul>
-            <li>Open Rate: 46.42%</li>
-            <li>Click Rate: 1.63%</li>
-            <li>Revenue: $0</li>
-        </ul>
-    </li>
-    <li><strong>"Christmas Countdown" (Dec 24, 2 PM)</strong>
-        <ul>
-            <li>Open Rate: 56.07%</li>
-            <li>Click Rate: 0.38%</li>
-            <li>Revenue: $0</li>
-        </ul>
-    </li>
-    <li><strong>"Merry Christmas" (Dec 25, 10 AM)</strong>
-        <ul>
-            <li>Open Rate: 70.58%</li>
-            <li>Click Rate: 0.81%</li>
-            <li>Revenue: $284.69</li>
-        </ul>
-    </li>
-</ul>
+<h3>Audience Segmentation & Engagement</h3>
+<p>The chart below illustrates the engagement levels of different audience segments, highlighting how each group interacted with the email campaigns.</p>
+<img src="audience_segmentation_chart.png" alt="Audience Segmentation & Engagement">
 
 <h2>Insights & Recommendations</h2>
 <ol>
@@ -189,10 +127,6 @@
         </ul>
     </li>
     <li><strong>Audience Segmentation & Targeting:</strong>
-        
-    <p>The chart below illustrates the engagement levels of different audience segments, highlighting how each group interacted with the email campaigns.</p>
-    <img src="audience_segmentation_chart.png" alt="Audience Segmentation & Engagement" style="width:600px; height:auto; display:block; margin: 10px 0;">
-
         <ul>
             <li>Loyal and Engaged Baibes segments demonstrated consistently high engagement.</li>
             <li>New subscribers responded well to welcome emails but showed lower purchase intent.</li>
@@ -233,7 +167,7 @@
 
 <a href="https://apdg21.github.io/reports/Performance%20Report%20Baibe%20Official.pdf" class="button" target="_blank">Download Report (PDF)</a>
 
-
+</div>
 
 </body>
 </html>
