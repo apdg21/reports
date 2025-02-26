@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Marketing Campaign Performance Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Email Marketing Campaign Performance Report</h1>
+
+<h2>Overview</h2>
+<p>This report analyzes the performance of the email campaigns sent between November 4, 2024, and December 25, 2024. Key metrics such as open rates, click rates, placed order rates, revenue generated, and bounce rates have been examined to assess the effectiveness of each campaign and derive actionable insights for future email marketing strategies.</p>
+
+<h2>Key Performance Metrics Summary:</h2>
+<ul>
+    <li>Total Emails Sent: 82,358</li>
+    <li>Average Open Rate: 50.37%</li>
+    <li>Average Click Rate: 3.57%</li>
+    <li>Total Revenue Generated: $33,884.93</li>
+    <li>Average Placed Order Rate: 0.29%</li>
+    <li>Bounce Rate: 2.14%</li>
+    <li>Unsubscribe Rate: Negligible across campaigns</li>
+</ul>
+
+<h2>Performance Analysis by Campaign Type</h2>
+
+<h3>1. High-Performing Campaigns (Top Open & Click Rates)</h3>
+<ul>
+    <li><strong>"Gift Card Last Call" (Dec 23)</strong>
+        <ul>
+            <li>Open Rate: 72.00%</li>
+            <li>Click Rate: 2.91%</li>
+            <li>Revenue: $0 (Informational Campaign)</li>
+        </ul>
+    </li>
+    <li><strong>"Baibe Appreciation Week Kick-Off" (Nov 4)</strong>
+        <ul>
+            <li>Open Rate: 65.90%</li>
+            <li>Click Rate: 5.95%</li>
+            <li>Revenue: $0 (Engagement-focused)</li>
+        </ul>
+    </li>
+    <li><strong>"Feature Highlights + Savings Reminder" (Nov 7)</strong>
+        <ul>
+            <li>Open Rate: 70.11%</li>
+            <li>Click Rate: 6.10%</li>
+            <li>Revenue: $3,084.84</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>2. Revenue-Generating Campaigns</h3>
+<ul>
+    <li><strong>"DB Deals Reminder 1 hr" (Nov 28, 11 PM)</strong>
+        <ul>
+            <li>Revenue: $11,100.23 (Highest revenue generated)</li>
+            <li>Open Rate: 25.19%</li>
+            <li>Click Rate: 1.04%</li>
+        </ul>
+    </li>
+    <li><strong>"DB Deals Start Now" (Nov 29, 12 AM)</strong>
+        <ul>
+            <li>Revenue: $6,252.37</li>
+            <li>Open Rate: 25.23%</li>
+            <li>Click Rate: 1.46%</li>
+        </ul>
+    </li>
+    <li><strong>"Door Buster vs Ready-to-Ship" (Nov 28, 1 PM)</strong>
+        <ul>
+            <li>Revenue: $3,553.99</li>
+            <li>Open Rate: 62.74%</li>
+            <li>Click Rate: 1.58%</li>
+        </ul>
+    </li>
+</ul>
+
+<h3>3. Underperforming Campaigns</h3>
+<ul>
+    <li><strong>"Cyber Monday Announcement" (Dec 2, 10 AM)</strong>
+        <ul>
+            <li>Open Rate: 46.42%</li>
+            <li>Click Rate: 1.63%</li>
+            <li>Revenue: $0</li>
+        </ul>
+    </li>
+    <li><strong>"Christmas Countdown" (Dec 24, 2 PM)</strong>
+        <ul>
+            <li>Open Rate: 56.07%</li>
+            <li>Click Rate: 0.38%</li>
+            <li>Revenue: $0</li>
+        </ul>
+    </li>
+    <li><strong>"Merry Christmas" (Dec 25, 10 AM)</strong>
+        <ul>
+            <li>Open Rate: 70.58%</li>
+            <li>Click Rate: 0.81%</li>
+            <li>Revenue: $284.69</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Insights & Recommendations</h2>
+<ol>
+    <li><strong>Timing Matters:</strong>
+        <ul>
+            <li>Peak Performance Timeframes: Midday (11 AM - 2 PM) and late evening (10 PM - 12 AM) campaigns saw the best engagement.</li>
+            <li>Black Friday and Cyber Monday campaigns benefited from evening-to-midnight email sends.</li>
+            <li>Low-Performance Timeframes: Emails sent in the early morning (before 9 AM) had lower engagement rates.</li>
+        </ul>
+    </li>
+    <li><strong>Subject Line & Personalization:</strong>
+        <ul>
+            <li>Emails with personalized subject lines (e.g., first name inclusion) had higher open rates.</li>
+            <li>Time-sensitive language ("Last Call," "Ends Soon," "Limited Time") increased urgency and engagement.</li>
+            <li>Informational emails without a direct CTA resulted in low conversion rates.</li>
+        </ul>
+    </li>
+    <li><strong>Audience Segmentation & Targeting:</strong>
+        <ul>
+            <li>Loyal and Engaged Baibes segments demonstrated consistently high engagement.</li>
+            <li>New subscribers responded well to welcome emails but showed lower purchase intent.</li>
+            <li>RTS (Ready-to-Ship) customers engaged well but had low conversion rates—consider further retargeting.</li>
+        </ul>
+    </li>
+    <li><strong>Click-Through & Order Conversion Optimization:</strong>
+        <ul>
+            <li>While some campaigns had high open rates, they lacked corresponding click-through rates (CTR), indicating content or CTA optimization is needed.</li>
+            <li>A/B testing different CTA placements and copy might improve order conversions.</li>
+            <li>Including discount codes in subject lines and body text increased revenue.</li>
+        </ul>
+    </li>
+    <li><strong>Bounce & Spam Complaints:</strong>
+        <ul>
+            <li>Bounce rates remained under 5% (industry standard), with anomalies in larger email blasts.</li>
+            <li>Spam complaints were negligible but should still be monitored—avoid excessive email frequency.</li>
+        </ul>
+    </li>
+</ol>
+
+<h2>Actionable Next Steps</h2>
+<ul>
+    <li>Continue segmenting lists for targeted messaging. VIPs and Engaged users should receive priority on limited-time offers.</li>
+    <li>Optimize email send times based on past performance (midday and late-night for promotions, morning for engagement-based emails).</li>
+    <li>Refine CTA placement and content to ensure a clear path to purchase.</li>
+    <li>Use more personalized and urgency-driven subject lines to boost engagement.</li>
+    <li>Expand A/B testing on CTA copy and design to enhance click-through and conversion rates.</li>
+    <li>Re-engagement campaigns for non-converting segments to nurture them into customers.</li>
+    <li>Monitor deliverability & spam complaints to prevent unnecessary list churn.</li>
+</ul>
+
+<h2>Conclusion</h2>
+<p>Overall, the email campaigns achieved strong engagement, particularly in pre-sale and limited-time promotions. However, there is room to optimize conversion rates through better segmentation, refined CTA strategies, and improved timing. By leveraging the insights from high-performing emails and mitigating weak areas, future campaigns can be even more impactful in driving revenue and customer loyalty.</p>
+
+<p>Prepared by: Marketing Analytics Team</p>
+<p>Date: February 26, 2025</p>
+
+<a href="#" class="button" onclick="downloadReport()">Download Report (PDF/DOC)</a>
+
+<script>
+    function downloadReport() {
+        // This function can be implemented to trigger a download.
+        alert('Download functionality is not implemented.');
+    }
+</script>
+
+</body>
+</html>
