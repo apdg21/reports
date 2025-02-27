@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Reports</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        h1, h2 {
+            text-align: left;
+        }
+        .tabs {
+            display: flex;
+            justify-content: flex-start;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .tab {
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            font-weight: bold;
+        }
+        .tab:hover {
+            opacity: 0.8;
+        }
+        .report-container {
+            display: none;
+            grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
+            justify-content: start;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .report-box {
+            background: linear-gradient(135deg, #f8f9fa, #dee2e6);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        .active {
+            display: grid;
+        }
+    </style>
+    <script>
+        function showReports(client) {
+            document.querySelectorAll('.report-container').forEach(el => el.classList.remove('active'));
+            document.getElementById(client).classList.add('active');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>All Reports</h1>
+        <h2>Team Name</h2>
+        <div class="tabs">
+            <div class="tab" onclick="showReports('client1')">Client 1 <img src="client1-logo.png" alt="Client 1 Logo" width="30"></div>
+            <div class="tab" onclick="showReports('client2')">Client 2 <img src="client2-logo.png" alt="Client 2 Logo" width="30"></div>
+            <div class="tab" onclick="showReports('client3')">Client 3 <img src="client3-logo.png" alt="Client 3 Logo" width="30"></div>
+        </div>
+        
+        <div id="client1" class="report-container active">
+            <div class="report-box"><strong>Report 1</strong><br>Short description of report.</div>
+            <div class="report-box"><strong>Report 2</strong><br>Short description of report.</div>
+            <div class="report-box"><strong>Report 3</strong><br>Short description of report.</div>
+        </div>
+        
+        <div id="client2" class="report-container">
+            <div class="report-box"><strong>Report A</strong><br>Short description of report.</div>
+            <div class="report-box"><strong>Report B</strong><br>Short description of report.</div>
+        </div>
+        
+        <div id="client3" class="report-container">
+            <div class="report-box"><strong>Report X</strong><br>Short description of report.</div>
+            <div class="report-box"><strong>Report Y</strong><br>Short description of report.</div>
+        </div>
+    </div>
+</body>
+</html>
