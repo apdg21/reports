@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -40,6 +42,7 @@
             align-items: center;
             gap: 10px;
             border: 2px solid #007bff;
+            box-sizing: border-box;
         }
         .tab:hover {
             opacity: 0.8;
@@ -48,6 +51,7 @@
             background: linear-gradient(135deg, #007bff, #0056b3);
             color: white;
             border: 2px solid #0056b3;
+            box-sizing: border-box;
         }
         .report-container {
             display: none;
@@ -76,6 +80,35 @@
         }
     </script>
 </head>
+<body>
+    <div class="container">
+        <h1>All Reports</h1>
+        <h2>Team Name</h2>
+        <div class="tabs">
+            <div class="tab active" onclick="showReports('client1')"><img src="client1-logo.png" alt="Client 1 Logo" width="30"> Client 1</div>
+            <div class="tab" onclick="showReports('client2')"><img src="client2-logo.png" alt="Client 2 Logo" width="30"> Client 2</div>
+            <div class="tab" onclick="showReports('client3')"><img src="client3-logo.png" alt="Client 3 Logo" width="30"> Client 3</div>
+        </div>
+        
+        <div id="client1" class="report-container active">
+            <div class="report-box"><strong>Report 1</strong><br>Short description of report.</div>
+            <div class="report-box"><strong>Report 2</strong><br>Short description of report.</div>
+            <div class="report-box"><strong>Report 3</strong><br>Short description of report.</div>
+        </div>
+        
+        <div id="client2" class="report-container">
+            <div class="report-box"><strong>Report A</strong><br>Short description of report.</div>
+            <div class="report-box"><strong>Report B</strong><br>Short description of report.</div>
+        </div>
+        
+        <div id="client3" class="report-container">
+            <div class="report-box"><strong>Report X</strong><br>Short description of report.</div>
+            <div class="report-box"><strong>Report Y</strong><br>Short description of report.</div>
+        </div>
+    </div>
+</body>
+</html>
+
 <body>
     <div class="container">
         <h1>All Reports</h1>
