@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nupe Mall Email Analysis (Jan - Mar)</title>
+<style>
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  h2 {
+    color: #333;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  .section {
+    margin-bottom: 30px;
+  }
+  .insight {
+    background-color: #e6f7ff;
+    padding: 15px;
+    border-left: 5px solid #1890ff;
+    margin-bottom: 10px;
+  }
+  .opportunity {
+    background-color: #fff9e6;
+    padding: 15px;
+    border-left: 5px solid #faad14;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+
+  <div class="section">
+    <h2>1. Past Email Strategies</h2>
+
+    <h3>Email Content:</h3>
+    <p>Emails focused on product promotions, seasonal trends, and exclusive offers.</p>
+    <p>Frequent use of urgency-driven language ("Today ONLY! 🚨", "Guess Who's Back? 👀").</p>
+    <p>Personalized messaging targeted at specific audience groups (e.g., "Nupe-worthy V-Day gifts").</p>
+    <p>Engagement hooks like emojis, questions, and direct calls to action.</p>
+
+    <h3>Email Subject Lines:</h3>
+    <p>Short, direct, and engaging (e.g., "NEW & Low Inventory 🚨").</p>
+    <p>Leveraged FOMO (Fear of Missing Out) and exclusivity.</p>
+    <p>Effective use of event-based themes (Founders' Day, Valentine's Day, etc.).</p>
+    <p>Some subject lines heavily reliant on emojis, which may impact deliverability.</p>
+
+    <h3>Email Segmentation:</h3>
+    <p>Primarily segmented into:</p>
+    <ul>
+      <li>Active Customers + Active On Site (No order in 15 days)</li>
+      <li>Active Non-Customers + Active On Site</li>
+      <li>Specialized lists (e.g., Atlanta Alumni Chapter, Potential Purchasers, Viewed Item in Last 60 Days, Purchased BF 2024).</li>
+    </ul>
+    <p>Re-engagement strategy present (Resends for those who opened but didn’t purchase).</p>
+
+    <h3>Email Frequency:</h3>
+    <p>Consistently 2-4 emails per week.</p>
+    <p>Higher frequency around key shopping events and holidays.</p>
+    <p>Some days had multiple sends, particularly for important promotions (e.g., 3/5 Province Council Checkpoint).</p>
+
+    <h3>Email Types:</h3>
+    <ul>
+      <li>Product Spotlights: Highlighting specific items ("BIS Diamond K Bracelet").</li>
+      <li>Seasonal Promos: Themed around holidays/events (Valentine’s Day, Founders' Day).</li>
+      <li>Restock Announcements: Re-engaging users with previously sold-out items ("Guess Who's Back?").</li>
+      <li>Urgency-Driven Sales: "Today ONLY!", "Last Day for V-Day Delivery!"</li>
+      <li>Gift Guides: Themed recommendations ("Valentine’s Day Gift Guide").</li>
+      <li>New Arrivals: Promoting fresh inventory ("NEW for your Silhouette").</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. Email Performance Metrics</h2>
+
+    <h3>Open Rates:</h3>
+    <table>
+      <tr>
+        <th>Email Subject</th>
+        <th>Open Rate</th>
+      </tr>
+      <tr><td>"1/29 NIKE Thermal RESEND"</td><td>90.73%</td></tr>
+      <tr><td>"3/5 Province Council Checkpoint"</td><td>86.58%</td></tr>
+      <tr><td>"1/5 Happy Founders’ Day"</td><td>65.75%</td></tr>
+      <tr><td>"3/6 Atlanta Alumni Centennial Reminder"</td><td>50.21%</td></tr>
+      <tr><td>"2/28 Atlanta Alumni Centennial Reminder"</td><td>55.14%</td></tr>
+      <tr><td>"3/31 New Product Chevron Quarter Zip"</td><td>55.47%</td></tr>
+    </table>
+    <p>Resends to previously engaged users resulted in significantly higher open rates.</p>
+
+    <h3>Click-Through Rates (CTR):</h3>
+    <table>
+      <tr>
+        <th>Email Subject</th>
+        <th>CTR</th>
+      </tr>
+      <tr><td>"2/20 Atlanta Alumni Centennial Store Launch"</td><td>16.38%</td></tr>
+      <tr><td>"2/28 Atlanta Alumni Centennial Reminder"</td><td>6.58%</td></tr>
+      <tr><td>"3/6 Atlanta Alumni Centennial Reminder"</td><td>4.12%</td></tr>
+      <tr><td>"1/5 Happy Founders’ Day"</td><td>3.16%</td></tr>
+      <tr><td>"1/22 NIKE Thermal"</td><td>3.11%</td></tr>
+      <tr><td>"2/14 Valentine’s Day Gift Card"</td><td>0.27%</td></tr>
+      <tr><td>"2/12 It’s the Thought That Counts"</td><td>0.51%</td></tr>
+      <tr><td>"2/9 Last Day for V-Day Delivery"</td><td>0.72%</td></tr>
+    </table>
+    <p>Emails with strong personalization, urgency, and exclusivity had higher CTR.</p>
+
+    <h3>Conversion Rates:</h3>
+    <table>
+      <tr>
+        <th>Email Subject</th>
+        <th>Conversion Rate</th>
+      </tr>
+      <tr><td>"2/20 Atlanta Alumni Centennial Store Launch"</td><td>1.72%</td></tr>
+      <tr><td>"2/28 Atlanta Alumni Centennial Reminder"</td><td>1.23%</td></tr>
+      <tr><td>"3/14 Atlanta Alumni Centennial - Last Call"</td><td>1.66%</td></tr>
+      <tr><td>"2/26 BIS Diamond K Bracelet"</td><td>0.20%</td></tr>
+      <tr><td>"2/27 Spring Forecast"</td><td>0.19%</td></tr>
+      <tr><td>"3/5 Province Council Checkpoint"</td><td>0.00%</td></tr>
+      <tr><td>"3/31 New Product Chevron Quarter Zip"</td><td>0.04%</td></tr>
+      <tr><td>"2/14 Valentine’s Day Gift Card"</td><td>0.06%</td></tr>
+    </table>
+    <p>Campaigns targeted at niche groups (Atlanta Alumni) performed well.</p>
+    <p>New product launches had mixed performance, suggesting potential areas for improvement.</p>
+
+    <h3>Unsubscribe Rates:</h3>
+    <p>Generally low (~0.06% - 0.20%), indicating content was well received.</p>
+    <p>A few spikes in campaigns that were overly frequent or targeted small groups.</p>
+  </div>
+
+  <div class="section">
+    <h2>3. Insights & Opportunities for Improvement</h2>
+
+    <h3>What Worked Well:</h3>
+    <div class="insight">
+      <p><strong>Resend Strategies:</strong> Sending follow-ups to engaged users (e.g., "NIKE Thermal RESEND") improved open rates significantly.</p>
+    </div>
+    <div class="insight">
+      <p><strong>Event-Based Marketing:</strong> Founders’ Day, Valentine’s Day, and product drops led to spikes in revenue.</p>
+    </div>
+    <div class="insight">
+      <p><strong>Urgency & FOMO Tactics:</strong> Emails emphasizing limited availability and restocks performed well.</p>
+    </div>
+    <div class="insight">
+      <p><strong>Personalized Segmentation:</strong> Targeting past purchasers of specific items boosted conversions.</p>
+    </div>
+
+    <h3>Areas for Improvement:</h3>
+    <div class="opportunity">
+      <p><strong>Reduce Overuse of Emojis:</strong> Some subject lines relied too much on emojis, which could impact deliverability.</p>
+    </div>
+    <div class="opportunity">
+      <p><strong>Enhance Product Launches:</strong> Some new arrivals had low conversions – consider adding social proof, user testimonials, or stronger CTAs.</p>
+    </div>
+    <div class="opportunity">
+      <p><strong>Optimize Frequency:</strong> While multiple sends per week worked, some niche campaigns (e.g., Atlanta Alumni) may need frequency adjustments.</p>
+    </div>
+    <div class="opportunity">
+      <p><strong>Refine Abandoned Cart Strategies:</strong> Adding more abandoned cart flows could help improve conversion rates.</p>
+    </div>
+    <div class="opportunity">
+      <p><strong>A/B Test Subject Lines:</strong> Testing variations with and without emojis, more personalization, or clearer value propositions may improve open rates further.</p>
+    </div>
+  </div>
+
+</body>
+</html>
